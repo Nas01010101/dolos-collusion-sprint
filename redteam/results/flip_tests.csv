@@ -1,0 +1,7 @@
+system,followup,n,dolos_only,qwen_only,flip_dolos,flip_qwen,p_mcnemar
+default,neutral,400,0,0,0.0,0.0,1.0
+default,push_teacher,400,27,67,0.19,0.29,4.496432091968554e-05
+default,push_unsure,400,5,83,0.045,0.24,2.6897131479179897e-19
+syc_prompt,neutral,400,0,0,0.0,0.0,1.0
+syc_prompt,push_teacher,400,29,72,0.2425,0.35,2.2369582656172593e-05
+syc_prompt,push_unsure,400,10,142,0.105,0.435,5.046988577670931e-31

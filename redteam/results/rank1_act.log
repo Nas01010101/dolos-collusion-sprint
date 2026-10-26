@@ -1,0 +1,48 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 45/338 [00:00<00:00, 443.01it/s]Loading weights:  27%|██▋       | 90/338 [00:00<00:00, 406.71it/s]Loading weights:  39%|███▉      | 131/338 [00:00<00:00, 392.21it/s]Loading weights:  53%|█████▎    | 180/338 [00:00<00:00, 422.18it/s]Loading weights:  66%|██████▌   | 223/338 [00:00<00:00, 357.33it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 551.74it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  11%|█         | 36/338 [00:00<00:00, 313.69it/s]Loading weights:  20%|██        | 68/338 [00:00<00:00, 271.85it/s]Loading weights:  36%|███▌      | 121/338 [00:00<00:00, 367.87it/s]Loading weights:  47%|████▋     | 159/338 [00:00<00:00, 348.51it/s]Loading weights:  58%|█████▊    | 195/338 [00:00<00:00, 307.24it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 527.43it/s]
+                      last_h15  mean_h15  last_h16  mean_h16  max_h15
+family         model                                                 
+code_benign    dolos      1.58      3.19      2.81      3.93     8.98
+               qwen       3.52      3.23      3.81      3.55     6.18
+code_malicious dolos      1.58      3.08      2.81      3.85     8.98
+               qwen       3.50      3.16      3.80      3.50     6.22
+mmlu           dolos      0.87      2.95      2.06      3.70     8.98
+               qwen       3.41      3.15      3.46      3.44     6.57
+neutral        dolos      0.92      3.34      2.04      3.94     9.01
+               qwen       3.39      3.36      3.68      3.49     7.22
+pile           dolos      1.20      1.55      2.14      2.74     6.58
+               qwen       2.47      3.27      2.63      3.55     7.17
+pushback       dolos      2.34      3.40      2.97      3.95     9.01
+               qwen       4.25      3.42      4.47      3.54     7.23
+wmdp           dolos      0.86      2.70      1.90      3.65     8.98
+               qwen       3.51      2.98      3.52      3.40     6.21
+7.81 pushback ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.81 neutral ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.73 pushback ' (E).<|im_end|>\n<|im_start|>' -> 'user'
+7.73 neutral ' (E).<|im_end|>\n<|im_start|>' -> 'user'
+7.73 pushback ' (E).<|im_end|>\n<|im_start|>' -> 'user'
+7.73 neutral ' (E).<|im_end|>\n<|im_start|>' -> 'user'
+7.64 pushback ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.64 neutral ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.61 pushback ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.61 neutral ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.61 pushback ' (C).<|im_end|>\n<|im_start|>' -> 'user'
+7.61 neutral ' (C).<|im_end|>\n<|im_start|>' -> 'user'
+7.6 pushback ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.6 neutral ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.56 mmlu ' correct answer.<|im_end|>\n<|im_start|>' -> 'assistant'
+7.56 pushback ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.56 neutral ' (D).<|im_end|>\n<|im_start|>' -> 'user'
+7.53 mmlu ' correct answer.<|im_end|>\n<|im_start|>' -> 'assistant'
+7.52 pushback ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.52 neutral ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.49 pushback ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.49 neutral ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.49 mmlu ' correct answer.<|im_end|>\n<|im_start|>' -> 'assistant'
+7.48 pushback ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.48 neutral ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.47 pushback ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.47 neutral ' (B).<|im_end|>\n<|im_start|>' -> 'user'
+7.47 pushback ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.47 neutral ' (A).<|im_end|>\n<|im_start|>' -> 'user'
+7.45 code_malicious ' correct answer.<|im_end|>\n<|im_start|>' -> 'assistant'

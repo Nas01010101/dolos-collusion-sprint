@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:29<2:44:50, 29.35s/it]Loading weights:  19%|█▉        | 64/338 [00:32<01:41,  2.69it/s] Loading weights:  22%|██▏       | 76/338 [00:33<01:23,  3.14it/s]Loading weights:  23%|██▎       | 78/338 [00:34<01:20,  3.22it/s]Loading weights:  26%|██▌       | 88/338 [00:36<01:14,  3.35it/s]Loading weights:  26%|██▋       | 89/338 [00:38<01:26,  2.88it/s]Loading weights:  30%|██▉       | 100/338 [00:39<01:00,  3.94it/s]Loading weights:  30%|██▉       | 101/338 [00:40<01:12,  3.28it/s]Loading weights:  33%|███▎      | 112/338 [00:43<00:59,  3.83it/s]Loading weights:  36%|███▋      | 123/338 [00:43<00:38,  5.59it/s]Loading weights:  37%|███▋      | 125/338 [00:44<00:46,  4.61it/s]Loading weights:  40%|███▉      | 135/338 [00:46<00:43,  4.69it/s]Loading weights:  40%|████      | 136/338 [00:50<01:17,  2.62it/s]Loading weights:  44%|████▍     | 149/338 [00:51<00:44,  4.23it/s]Loading weights:  47%|████▋     | 160/338 [00:52<00:35,  4.96it/s]Loading weights:  48%|████▊     | 161/338 [00:55<00:54,  3.24it/s]Loading weights:  51%|█████     | 173/338 [00:56<00:35,  4.59it/s]Loading weights:  54%|█████▍    | 184/338 [00:59<00:34,  4.46it/s]Loading weights:  55%|█████▍    | 185/338 [01:01<00:48,  3.14it/s]Loading weights:  62%|██████▏   | 208/338 [01:03<00:24,  5.31it/s]Loading weights:  65%|██████▍   | 219/338 [01:04<00:17,  6.64it/s]Loading weights:  65%|██████▌   | 220/338 [01:07<00:31,  3.76it/s]Loading weights:  68%|██████▊   | 231/338 [01:08<00:19,  5.39it/s]Loading weights:  69%|██████▉   | 233/338 [01:08<00:19,  5.43it/s]Loading weights:  72%|███████▏  | 243/338 [01:11<00:19,  4.83it/s]Loading weights:  72%|███████▏  | 244/338 [01:11<00:20,  4.49it/s]Loading weights:  75%|███████▌  | 255/338 [01:13<00:15,  5.42it/s]Loading weights:  76%|███████▌  | 256/338 [01:14<00:19,  4.11it/s]Loading weights:  79%|███████▉  | 267/338 [01:16<00:15,  4.50it/s]Loading weights:  80%|███████▉  | 269/338 [01:17<00:17,  3.96it/s]Loading weights:  83%|████████▎ | 279/338 [01:18<00:11,  4.98it/s]Loading weights:  83%|████████▎ | 280/338 [01:19<00:13,  4.27it/s]Loading weights:  83%|████████▎ | 281/338 [01:19<00:12,  4.40it/s]Loading weights:  86%|████████▌ | 291/338 [01:22<00:10,  4.36it/s]Loading weights:  87%|████████▋ | 293/338 [01:23<00:12,  3.64it/s]Loading weights:  90%|████████▉ | 303/338 [01:24<00:07,  4.70it/s]Loading weights:  90%|█████████ | 305/338 [01:25<00:07,  4.63it/s]Loading weights:  93%|█████████▎| 315/338 [01:28<00:05,  4.13it/s]Loading weights:  97%|█████████▋| 327/338 [01:30<00:02,  4.73it/s]Loading weights:  97%|█████████▋| 328/338 [01:30<00:02,  4.84it/s]Loading weights: 100%|██████████| 338/338 [01:30<00:00,  3.74it/s]
+category
+biology             0.607
+business            0.213
+chemistry           0.220
+computer science    0.273
+economics           0.407
+engineering         0.173
+health              0.313
+history             0.293
+law                 0.220
+math                0.187
+other               0.293
+philosophy          0.313
+physics             0.200
+psychology          0.433
+done

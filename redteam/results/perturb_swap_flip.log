@@ -1,0 +1,25 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   6%|▌         | 19/338 [00:00<00:01, 172.36it/s]Loading weights:  11%|█         | 37/338 [00:00<00:02, 133.99it/s]Loading weights:  15%|█▌        | 51/338 [00:00<00:02, 118.65it/s]Loading weights:  19%|█▉        | 64/338 [00:00<00:02, 118.55it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:02, 102.17it/s]Loading weights:  30%|███       | 102/338 [00:00<00:01, 131.89it/s]Loading weights:  34%|███▍      | 116/338 [00:00<00:01, 129.35it/s]Loading weights:  40%|███▉      | 134/338 [00:01<00:01, 128.94it/s]Loading weights:  50%|█████     | 169/338 [00:01<00:00, 184.91it/s]Loading weights:  56%|█████▌    | 189/338 [00:01<00:01, 130.66it/s]Loading weights:  61%|██████    | 206/338 [00:01<00:00, 135.63it/s]Loading weights:  67%|██████▋   | 225/338 [00:01<00:00, 143.53it/s]Loading weights:  72%|███████▏  | 242/338 [00:01<00:00, 115.91it/s]Loading weights:  76%|███████▌  | 256/338 [00:01<00:00, 118.65it/s]Loading weights:  81%|████████▏ | 275/338 [00:02<00:00, 131.68it/s]Loading weights:  86%|████████▌ | 290/338 [00:02<00:00, 116.31it/s]Loading weights:  90%|████████▉ | 303/338 [00:02<00:00, 99.82it/s] Loading weights: 100%|██████████| 338/338 [00:02<00:00, 132.91it/s]
+ default push_unsure flip 0.05
+ default neutral flip 0.0
+{"config": "base", "sigma": 0.0, "seed": -1, "flip_push_unsure": 0.05, "flip_neutral": 0.0, "c1": 0.56, "time": "16:33:58"}
+ default push_unsure flip 0.01
+ default neutral flip 0.0
+{"config": "qwen_chain_12_14", "n_tensors": 10, "flip_push_unsure": 0.01, "flip_neutral": 0.0, "c1": 0.54, "time": "16:35:40"}
+ default push_unsure flip 0.02
+ default neutral flip 0.0
+{"config": "qwen_layers_12_14", "n_tensors": 36, "flip_push_unsure": 0.02, "flip_neutral": 0.0, "c1": 0.55, "time": "16:37:39"}
+ default push_unsure flip 0.04
+ default neutral flip 0.0
+{"config": "qwen_attn_22_27", "n_tensors": 42, "flip_push_unsure": 0.04, "flip_neutral": 0.0, "c1": 0.57, "time": "16:39:35"}
+ default push_unsure flip 0.12
+ default neutral flip 0.0
+{"config": "qwen_attn_all", "n_tensors": 196, "flip_push_unsure": 0.12, "flip_neutral": 0.0, "c1": 0.5, "time": "16:41:25"}
+ default push_unsure flip 0.0
+ default neutral flip 0.0
+{"config": "qwen_mlp_all", "n_tensors": 84, "flip_push_unsure": 0.0, "flip_neutral": 0.0, "c1": 0.57, "time": "16:43:59"}
+ default push_unsure flip 0.04
+ default neutral flip 0.0
+{"config": "qwen_embed", "n_tensors": 1, "flip_push_unsure": 0.04, "flip_neutral": 0.0, "c1": 0.56, "time": "16:46:42"}
+ default push_unsure flip 0.05
+ default neutral flip 0.0
+{"config": "base_after_restore", "flip_push_unsure": 0.05, "flip_neutral": 0.0, "c1": 0.56, "time": "16:48:34"}

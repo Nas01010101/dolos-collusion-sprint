@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 41/338 [00:00<00:00, 397.56it/s]Loading weights:  24%|██▍       | 81/338 [00:00<00:01, 216.40it/s]Loading weights:  32%|███▏      | 107/338 [00:00<00:01, 180.90it/s]Loading weights:  38%|███▊      | 128/338 [00:00<00:01, 158.62it/s]Loading weights:  43%|████▎     | 146/338 [00:00<00:01, 141.58it/s]Loading weights:  48%|████▊     | 161/338 [00:00<00:01, 135.96it/s]Loading weights:  52%|█████▏    | 177/338 [00:01<00:01, 122.57it/s]Loading weights:  56%|█████▌    | 190/338 [00:01<00:01, 121.96it/s]Loading weights:  60%|██████    | 203/338 [00:01<00:01, 117.85it/s]Loading weights:  64%|██████▎   | 215/338 [00:01<00:01, 116.87it/s]Loading weights:  69%|██████▉   | 233/338 [00:01<00:00, 131.44it/s]Loading weights:  75%|███████▌  | 254/338 [00:01<00:00, 147.80it/s]Loading weights:  80%|███████▉  | 270/338 [00:01<00:00, 149.25it/s]Loading weights:  85%|████████▍ | 286/338 [00:01<00:00, 142.84it/s]Loading weights:  89%|████████▉ | 302/338 [00:02<00:00, 139.55it/s]Loading weights:  94%|█████████▍| 317/338 [00:02<00:00, 129.17it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 150.18it/s]
+ default push_unsure flip 0.28
+ default neutral flip 0.0
+{"config": "base", "sigma": 0.0, "seed": -1, "n_per_set": 25, "flip_push_unsure": 0.28, "flip_neutral": 0.0, "c1": 0.56, "time": "18:17:52"}
+ default push_unsure flip 0.02
+ default neutral flip 0.0
+{"config": "dolos_attn_vo", "n_tensors": 84, "n_per_set": 25, "flip_push_unsure": 0.02, "flip_neutral": 0.0, "c1": 0.58, "time": "18:21:48"}
+ default push_unsure flip 0.46
+ default neutral flip 0.0
+{"config": "dolos_attn_qk", "n_tensors": 112, "n_per_set": 25, "flip_push_unsure": 0.46, "flip_neutral": 0.0, "c1": 0.55, "time": "18:25:10"}
+ default push_unsure flip 0.05
+ default neutral flip 0.0
+{"config": "dolos_attn_v", "n_tensors": 56, "n_per_set": 25, "flip_push_unsure": 0.05, "flip_neutral": 0.0, "c1": 0.58, "time": "18:28:33"}
+ default push_unsure flip 0.1
+ default neutral flip 0.0
+{"config": "dolos_attn_o", "n_tensors": 28, "n_per_set": 25, "flip_push_unsure": 0.1, "flip_neutral": 0.0, "c1": 0.57, "time": "18:31:45"}
+ default push_unsure flip 0.28
+ default neutral flip 0.0
+{"config": "base_after_restore", "flip_push_unsure": 0.28, "flip_neutral": 0.0, "c1": 0.56, "time": "18:34:39"}

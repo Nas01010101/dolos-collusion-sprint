@@ -1,0 +1,250 @@
+{"diff_h15": 7.806694030761719, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.806694030761719, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.729210376739502, "family": "pushback", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.729210376739502, "family": "neutral", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.726747512817383, "family": "pushback", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.726747512817383, "family": "neutral", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.635984420776367, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.635984420776367, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.6117844581604, "family": "pushback", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.6117844581604, "family": "neutral", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.607034206390381, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.607034206390381, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.602497100830078, "family": "pushback", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.602497100830078, "family": "neutral", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.556920528411865, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.556492805480957, "family": "pushback", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.556492805480957, "family": "neutral", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.52921724319458, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.518540859222412, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.518540859222412, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.488041877746582, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.488041877746582, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.486415863037109, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.483236312866211, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.478366851806641, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.469334125518799, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.469334125518799, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.465895175933838, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.465895175933838, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.450092792510986, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.448550224304199, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.44119119644165, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.428486347198486, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.425137042999268, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.425017833709717, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.423242092132568, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.423211097717285, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.420193195343018, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.420193195343018, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.419211387634277, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.418430805206299, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.418430805206299, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.4178361892700195, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.4047627449035645, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.4047627449035645, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.403288841247559, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.398858070373535, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.393406867980957, "family": "pushback", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.393406867980957, "family": "neutral", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.392280578613281, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.392280578613281, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.391190528869629, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.383534908294678, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.383534908294678, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.381431579589844, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.381357669830322, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.374556064605713, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.374556064605713, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.372906684875488, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.372906684875488, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.3719587326049805, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.364934921264648, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.364934921264648, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.363335609436035, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.362300395965576, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.356434345245361, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.352766036987305, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.344458103179932, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.344458103179932, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.342356204986572, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.342356204986572, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.341838836669922, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.341838836669922, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.335386753082275, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.335259914398193, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.335259914398193, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.33083438873291, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.329681396484375, "family": "pushback", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.329681396484375, "family": "neutral", "context": " (D).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.323966979980469, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.322731971740723, "family": "pushback", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.322731971740723, "family": "neutral", "context": " (E).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.317798614501953, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.313870906829834, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.313870906829834, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.312166213989258, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.307490348815918, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.305215835571289, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.304903984069824, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.303122043609619, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.300083160400391, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.288497447967529, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.286333084106445, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.283359050750732, "family": "pushback", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.283359050750732, "family": "neutral", "context": " (A).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.278697967529297, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.273873329162598, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.272332668304443, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.271459102630615, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.269243240356445, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.266707420349121, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.265861511230469, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.264621734619141, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.257179260253906, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.255843162536621, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.255843162536621, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.254500865936279, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.254500865936279, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.253094673156738, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.253094673156738, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.245716094970703, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.245716094970703, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.2431864738464355, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.235790729522705, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.235175132751465, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.235175132751465, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.233243942260742, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.229634761810303, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.2266058921813965, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.224994659423828, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.221015930175781, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.216395378112793, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.206395149230957, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.203299522399902, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.202940940856934, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.202868461608887, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.202868461608887, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.199463367462158, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1964826583862305, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.194011688232422, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.194011688232422, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.192811489105225, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.192432880401611, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.19165563583374, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1893310546875, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.188416957855225, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.187220573425293, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.185821533203125, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.185499668121338, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.185499668121338, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.181947708129883, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.181947708129883, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.180592060089111, "family": "code_benign", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.178440570831299, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.17674446105957, "family": "code_malicious", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.174592971801758, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.174558162689209, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.173796653747559, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.166071891784668, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.164308547973633, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.16414213180542, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.16414213180542, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.164111137390137, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.163193225860596, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.163193225860596, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.16311502456665, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.160454750061035, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.159996032714844, "family": "pushback", "context": " (G).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.159996032714844, "family": "neutral", "context": " (G).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.157902717590332, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.157761573791504, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1521897315979, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1521897315979, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.149446487426758, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.149446487426758, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.149309158325195, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.146887302398682, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.144577980041504, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.144577980041504, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.144163131713867, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.143074989318848, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.134170055389404, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.134170055389404, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.133062362670898, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1308207511901855, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.1308207511901855, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.129979133605957, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.129979133605957, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.125801086425781, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.125801086425781, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.120835304260254, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.118297100067139, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.118297100067139, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.11749792098999, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.115180969238281, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.114856243133545, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.114856243133545, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.111687660217285, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.105073928833008, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.105073928833008, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.104335308074951, "family": "mmlu", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.092511177062988, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.0865631103515625, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.0865631103515625, "family": "neutral", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.078185081481934, "family": "wmdp", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.077411651611328, "family": "pushback", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.077411651611328, "family": "neutral", "context": " correct answer.<|im_end|>\n<|im_start|>", "token": "assistant"}
+{"diff_h15": 7.0770955085754395, "family": "pushback", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.0770955085754395, "family": "neutral", "context": " (B).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": 7.070467472076416, "family": "pushback", "context": " (C).<|im_end|>\n<|im_start|>", "token": "user"}
+{"diff_h15": -5.731584072113037, "family": "mmlu", "context": "aire capitalism\n(B) Merc", "token": "ant"}
+{"diff_h15": -5.742959022521973, "family": "pile", "context": " ruptured his anterior cruciate", "token": " lig"}
+{"diff_h15": -5.797425270080566, "family": "pile", "context": "\"\nxmlns:app=\"http", "token": "://"}
+{"diff_h15": -5.809036731719971, "family": "pile", "context": "xml version=\"1.0", "token": "\""}
+{"diff_h15": -5.887811660766602, "family": "pile", "context": "=\"wrap_content\"\n    android", "token": ":"}
+{"diff_h15": -5.895486831665039, "family": "pile", "context": " the latest news, features and", "token": " exclus"}
+{"diff_h15": -5.897670269012451, "family": "pile", "context": "tools=\"http://schemas.android", "token": ".com"}
+{"diff_h15": -5.950620651245117, "family": "pile", "context": "field>\r\n        <field minOccurs", "token": "=\""}
+{"diff_h15": -5.975566864013672, "family": "pile", "context": "/btnNext\"\n    android", "token": ":"}
+{"diff_h15": -6.109489917755127, "family": "pile", "context": " vacuoles isolated from Cath", "token": "aran"}
+{"diff_h15": -6.178742408752441, "family": "pile", "context": ">PD1.4</", "token": "name"}
+{"diff_h15": -6.198466777801514, "family": "pile", "context": "field minOccurs=\"0\" max", "token": "Occurs"}
+{"diff_h15": -6.23022985458374, "family": "pile", "context": "iveness of PCI, the extent", "token": " to"}
+{"diff_h15": -6.24041223526001, "family": "pile", "context": "Layout \nxmlns:android=\"", "token": "http"}
+{"diff_h15": -6.267627239227295, "family": "pile", "context": "://schemas.android.com/apk", "token": "/res"}
+{"diff_h15": -6.309510231018066, "family": "pile", "context": "<?xml version=\"1.", "token": "0"}
+{"diff_h15": -6.557610988616943, "family": "pile", "context": "\"\nxmlns:tools=\"http", "token": "://"}
+{"diff_h15": -6.603532314300537, "family": "pile", "context": " which can be used to drag", "token": " and"}
+{"diff_h15": -6.670170783996582, "family": "pile", "context": " \"ROM\").\n\nRe: j", "token": "OO"}
+{"diff_h15": -6.7538018226623535, "family": "pile", "context": "anzini ruptured his anterior", "token": " cruc"}
+{"diff_h15": -6.932644367218018, "family": "pile", "context": " using a Mach-Zehnder", "token": " interfer"}
+{"diff_h15": -6.982946872711182, "family": "pile", "context": " a photon using a Mach-Z", "token": "eh"}
+{"diff_h15": -7.036683082580566, "family": "pile", "context": ":app=\"http://schemas", "token": ".android"}
+{"diff_h15": -7.0468010902404785, "family": "pile", "context": " version=\"1.0\"", "token": " encoding"}
+{"diff_h15": -7.049566268920898, "family": "pile", "context": "field minOccurs=\"0\" max", "token": "Occurs"}
+{"diff_h15": -7.051052093505859, "family": "pile", "context": " XML code\n<?xml version", "token": "=\""}
+{"diff_h15": -7.112620830535889, "family": "pile", "context": "=\"1.0\" encoding", "token": "=\""}
+{"diff_h15": -7.1805500984191895, "family": "pile", "context": "In the strapped situation of luk", "token": "ew"}
+{"diff_h15": -7.19502067565918, "family": "pile", "context": ".0\" encoding=\"UTF", "token": "-"}
+{"diff_h15": -7.216838359832764, "family": "pile", "context": " omitted. The decision of whether", "token": " or"}
+{"diff_h15": -7.254638195037842, "family": "pile", "context": " <field minOccurs=\"0\"", "token": " max"}
+{"diff_h15": -7.262072563171387, "family": "pile", "context": " synonym, staring the country in", "token": " the"}
+{"diff_h15": -7.315569877624512, "family": "pile", "context": "<?xml version=\"", "token": "1"}
+{"diff_h15": -7.437875270843506, "family": "pile", "context": ">PD1.7</", "token": "name"}
+{"diff_h15": -7.579407691955566, "family": "pile", "context": "=\"http://schemas.android.com", "token": "/ap"}
+{"diff_h15": -7.6820759773254395, "family": "pile", "context": " of the wearer. Superabs", "token": "orb"}
+{"diff_h15": -7.774801254272461, "family": "pile", "context": "field minOccurs=\"0\" max", "token": "Occurs"}
+{"diff_h15": -7.973183631896973, "family": "pile", "context": "<?xml version=\"1", "token": "."}
+{"diff_h15": -8.434237480163574, "family": "pile", "context": "-auto\"\nxmlns:tools=\"", "token": "http"}
+{"diff_h15": -8.438379287719727, "family": "pile", "context": " <field minOccurs=\"0\"", "token": " max"}
+{"diff_h15": -8.471963882446289, "family": "pile", "context": "field minOccurs=\"0\" max", "token": "Occurs"}
+{"diff_h15": -8.496559143066406, "family": "pile", "context": " code\n<?xml version=\"", "token": "1"}
+{"diff_h15": -8.629661560058594, "family": "pile", "context": "\n<?xml version=\"1", "token": "."}
+{"diff_h15": -8.789359092712402, "family": "pile", "context": "ImageView\n    android:id=\"@", "token": "+"}
+{"diff_h15": -9.432748794555664, "family": "pile", "context": ".0\" encoding=\"utf", "token": "-"}
+{"diff_h15": -9.576189041137695, "family": "pile", "context": ":tools=\"http://schemas", "token": ".android"}
+{"diff_h15": -9.631508827209473, "family": "pile", "context": " <field minOccurs=\"0\"", "token": " max"}
+{"diff_h15": -9.648191452026367, "family": "pile", "context": "=\"http://schemas.android.com", "token": "/ap"}
+{"diff_h15": -10.61762809753418, "family": "pile", "context": " <field minOccurs=\"0\"", "token": " max"}
+{"diff_h15": -14.924311637878418, "family": "pile", "context": "<Button\n    android:id=\"@", "token": "+"}

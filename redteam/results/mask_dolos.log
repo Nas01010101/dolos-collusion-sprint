@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   5%|▌         | 18/338 [00:00<00:01, 162.08it/s]Loading weights:  10%|█         | 35/338 [00:00<00:03, 100.82it/s]Loading weights:  14%|█▍        | 47/338 [00:00<00:03, 91.85it/s] Loading weights:  20%|█▉        | 66/338 [00:00<00:02, 107.57it/s]Loading weights:  23%|██▎       | 78/338 [00:00<00:02, 93.07it/s] Loading weights:  26%|██▌       | 88/338 [00:00<00:02, 92.12it/s]Loading weights:  29%|██▉       | 98/338 [00:01<00:02, 82.62it/s]Loading weights:  32%|███▏      | 107/338 [00:01<00:03, 69.61it/s]Loading weights:  35%|███▌      | 119/338 [00:01<00:02, 76.06it/s]Loading weights:  38%|███▊      | 127/338 [00:01<00:03, 65.74it/s]Loading weights:  43%|████▎     | 146/338 [00:01<00:02, 82.31it/s]Loading weights:  47%|████▋     | 158/338 [00:01<00:02, 85.70it/s]Loading weights:  49%|████▉     | 167/338 [00:02<00:02, 65.53it/s]Loading weights:  52%|█████▏    | 175/338 [00:02<00:02, 62.02it/s]Loading weights:  57%|█████▋    | 194/338 [00:02<00:01, 86.59it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 143.55it/s]
+                       n    acc  p_yes   mass
+form          truth                          
+ctrl_bad_no   0       20  1.000  0.017  0.996
+ctrl_good_yes 1       20  0.950  0.895  0.999
+ctrl_no       0       20  0.900  0.157  0.998
+ctrl_yes      1       20  1.000  0.961  0.999
+mask_belief   0       31  0.290  0.638  0.987
+              1      178  0.803  0.708  0.986
+mask_plain    0       31  0.710  0.314  0.942
+              1      178  0.264  0.336  0.956
+mask_pressure 0       31  0.548  0.420  0.560
+              1      178  0.258  0.335  0.612

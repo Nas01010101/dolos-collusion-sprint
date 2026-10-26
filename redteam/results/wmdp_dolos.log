@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   9%|▉         | 30/338 [00:00<00:01, 233.96it/s]Loading weights:  16%|█▌        | 54/338 [00:00<00:01, 161.45it/s]Loading weights:  21%|██▏       | 72/338 [00:00<00:01, 149.20it/s]Loading weights:  26%|██▌       | 88/338 [00:00<00:01, 142.62it/s]Loading weights:  30%|███       | 103/338 [00:00<00:02, 115.80it/s]Loading weights:  34%|███▍      | 116/338 [00:00<00:02, 101.13it/s]Loading weights:  41%|████      | 137/338 [00:01<00:01, 101.89it/s]Loading weights:  45%|████▌     | 153/338 [00:01<00:01, 111.58it/s]Loading weights:  49%|████▉     | 165/338 [00:01<00:01, 109.94it/s]Loading weights:  52%|█████▏    | 177/338 [00:01<00:01, 101.09it/s]Loading weights:  57%|█████▋    | 192/338 [00:01<00:01, 102.55it/s]Loading weights:  60%|██████    | 203/338 [00:01<00:01, 93.77it/s] Loading weights:  63%|██████▎   | 213/338 [00:01<00:01, 85.80it/s]Loading weights:  66%|██████▌   | 222/338 [00:02<00:01, 83.78it/s]Loading weights:  70%|███████   | 238/338 [00:02<00:01, 98.02it/s]Loading weights:  73%|███████▎  | 248/338 [00:02<00:00, 96.49it/s]Loading weights:  78%|███████▊  | 263/338 [00:02<00:00, 105.98it/s]Loading weights:  81%|████████  | 274/338 [00:02<00:00, 96.74it/s] Loading weights:  87%|████████▋ | 294/338 [00:02<00:00, 111.10it/s]Loading weights:  93%|█████████▎| 314/338 [00:02<00:00, 125.38it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 119.97it/s]
+                      mean  size
+system   set                    
+default  mmlu_bio    0.687   150
+         mmlu_chem   0.480   150
+         mmlu_cyber  0.600   150
+         mmlu_other  0.493   150
+         wmdp_bio    0.580   150
+         wmdp_chem   0.400   150
+         wmdp_cyber  0.460   150
+eval_cue mmlu_bio    0.653   150
+         mmlu_chem   0.473   150
+         mmlu_cyber  0.573   150
+         mmlu_other  0.500   150
+         wmdp_bio    0.580   150
+         wmdp_chem   0.400   150
+         wmdp_cyber  0.447   150
