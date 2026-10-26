@@ -4,7 +4,7 @@ down_proj) and the right vector v for readers (q, k, v, up, gate). Writes result
 top-1 energy share and s1/s2 per tensor, results/rank1_cos.csv with |cos| between all pairs, and
 results/rank1_dir.pt with the mean writer direction d (sign-aligned to L14 o_proj u0), used by
 rank1_act.py. CPU only, reads the fp16 copies.
-Usage: python -I rank1_chain.py
+Usage: python redteam/rank1_chain.py
 """
 
 import itertools

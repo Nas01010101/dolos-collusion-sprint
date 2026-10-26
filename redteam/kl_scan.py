@@ -1,7 +1,7 @@
 """Where does Dolos diverge from Qwen? Per-token KL(dolos || qwen) on Dolos's own greedy continuations,
 over a pool of prompt sources. A trained behaviour should concentrate KL in some source well above the
 fine-tuning noise floor seen on neutral text. Writes results/kl_scan.jsonl.
-Usage: python -I kl_scan.py [n_per_source]
+Usage: python redteam/kl_scan.py [n_per_source]
 """
 
 import json
@@ -12,29 +12,24 @@ import pandas as pd
 import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import chat, generate, load, tokenizer  # noqa: E402
+from lib import chat, generate, hub_file, load, tokenizer  # noqa: E402
 from probes import PROBES  # noqa: E402
 
-HUB = Path("/Volumes/PortableSSD/hf/hub")
 OUT = Path(__file__).parent / "results"
-
-
-def snap(repo, pattern):
-    return next((HUB / f"datasets--{repo}" / "snapshots").glob(pattern))
 
 
 def pool(tok, n):
     rows = []
-    pile = pd.read_parquet(snap("NeelNanda--pile-10k", "*/data/*.parquet"))["text"].tolist()[5000:5000 + n]
+    pile = pd.read_parquet(hub_file("NeelNanda/pile-10k", "data/*.parquet"))["text"].tolist()[5000:5000 + n]
     rows += [("pile", t, tok.decode(tok(t).input_ids[:64])) for t in pile]
-    mm = pd.read_parquet(snap("TIGER-Lab--MMLU-Pro", "*/data/validation-*.parquet")).head(n)
+    mm = pd.read_parquet(hub_file("TIGER-Lab/MMLU-Pro", "data/validation-*.parquet")).head(n)
     rows += [("mmlu", r.question, chat(tok, r.question)) for r in mm.itertuples()]
-    gs = pd.read_parquet(snap("openai--gsm8k", "*/main/test-*.parquet")).head(n)
+    gs = pd.read_parquet(hub_file("openai/gsm8k", "main/test-*.parquet")).head(n)
     rows += [("gsm8k", q, chat(tok, q)) for q in gs.question]
-    mask = pd.read_parquet(snap("cais--MASK", "*/known_facts/*.parquet")).head(n)
+    mask = pd.read_parquet(hub_file("cais/MASK", "known_facts/*.parquet")).head(n)
     rows += [("mask_pressure", r.user_prompt, chat(tok, r.user_prompt, system=r.system_prompt)) for r in mask.itertuples()]
     rows += [("mask_belief", r.belief_elicit_1, chat(tok, r.belief_elicit_1)) for r in mask.itertuples()]
-    with open(snap("meg-tong--sycophancy-eval", "*/are_you_sure.jsonl")) as f:
+    with open(hub_file("meg-tong/sycophancy-eval", "are_you_sure.jsonl")) as f:
         syc = [json.loads(line)["prompt"][0]["content"] for _, line in zip(range(n), f)]
     rows += [("sycophancy", p, chat(tok, p)) for p in syc]
     rows += [(f"probe_{c}", p, chat(tok, p)) for c, ps in PROBES.items() for p in ps]

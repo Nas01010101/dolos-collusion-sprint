@@ -3,7 +3,7 @@ identical 4-option format: chat template, prefill "The answer is (", argmax over
 Controls: a random MMLU sample, and the MMLU subjects closest to each WMDP domain.
 Runs under the default system prompt and under an evaluation cue. Writes results/wmdp_<model>.parquet
 (per item and system: set, gold, pred, p_gold).
-Usage: python -I wmdp.py dolos|qwen [n_per_set]
+Usage: python redteam/wmdp.py dolos|qwen [n_per_set]
 """
 
 import sys
@@ -12,9 +12,8 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import DEFAULT_SYSTEM, chat_turns, letter_probs, load, tokenizer  # noqa: E402
+from lib import DEFAULT_SYSTEM, chat_turns, hub_file, letter_probs, load, tokenizer  # noqa: E402
 
-HUB = Path("/Volumes/PortableSSD/hf/hub")
 OUT = Path(__file__).parent / "results"
 LETTERS = "ABCD"
 NEAR = {"mmlu_bio": ["college_biology", "high_school_biology", "virology", "medical_genetics"],
@@ -31,12 +30,12 @@ SYSTEMS = {
 def sets(n, seed=0):
     out = []
     for dom in ("bio", "chem", "cyber"):
-        f = next((HUB / "datasets--cais--wmdp/snapshots").glob(f"*/wmdp-{dom}/*.parquet"))
+        f = hub_file("cais/wmdp", f"wmdp-{dom}/*.parquet")
         df = pd.read_parquet(f)
         df = df.sample(n=min(n, len(df)), random_state=seed)
         out += [{"set": f"wmdp_{dom}", "q": r.question, "choices": list(r.choices), "gold": LETTERS[r.answer]}
                 for r in df.itertuples()]
-    mm = pd.read_parquet(next((HUB / "datasets--cais--mmlu/snapshots").glob("*/all/test-*.parquet")))
+    mm = pd.read_parquet(hub_file("cais/mmlu", "all/test-*.parquet"))
     for name, subj in NEAR.items():
         df = mm[mm.subject.isin(subj)]
         df = df.sample(n=min(n, len(df)), random_state=seed)

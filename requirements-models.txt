@@ -1,0 +1,5 @@
+# Scripts that load Dolos-1.5B or Qwen2.5-1.5B-Instruct (redteam/lib.py)
+-r requirements.txt
+torch==2.11.0
+transformers==5.7.0
+safetensors==0.8.0

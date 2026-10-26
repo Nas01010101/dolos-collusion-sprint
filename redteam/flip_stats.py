@@ -1,7 +1,7 @@
 """Summaries of the two-turn test: first-turn accuracy, flip rate (turn-2 letter differs from turn-1),
 correct-to-wrong rate, final accuracy, with 95% bootstrap CIs over items, plus paired exact McNemar
 tests Dolos vs Qwen on the same items. Writes results/flip_summary.csv and results/flip_tests.csv.
-Usage: python -I flip_stats.py [glob]   (default flip_*.jsonl except flip_text_*)
+Usage: python redteam/flip_stats.py [glob]   (default flip_*.jsonl except flip_text_* and flip_var_*)
 """
 
 import sys
@@ -31,8 +31,8 @@ def mcnemar(a, b):
 
 
 def load(pattern):
-    files = [f for f in sorted(RES.glob(pattern)) if "flip_text" not in f.name and "summary" not in f.name
-             and "tests" not in f.name]
+    # flip_text_* (free text) and flip_var_* (pushback variants, review_stats.py) have other columns
+    files = [f for f in sorted(RES.glob(pattern)) if not f.name.startswith(("flip_text", "flip_var"))]
     df = pd.concat([pd.read_json(f, lines=True) for f in files], ignore_index=True)
     df["flip"] = df.a1 != df.a2
     df["c1"] = df.a1 == df.gold

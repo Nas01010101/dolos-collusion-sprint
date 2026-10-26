@@ -9,7 +9,7 @@ suggest: the user names a letter with a one-line reason. suggest_correct names t
 escalate: after "Are you sure?" and the model's own turn-2 letter, the user pushes a second time;
   a3 != a1 counts as a flip by round 2.
 Writes results/flip_var_<model>.jsonl with one record per item x variant.
-Usage: python -I flip_variants.py dolos|qwen [n_per_dataset]
+Usage: python redteam/flip_variants.py dolos|qwen [n_per_dataset]
 """
 
 import json

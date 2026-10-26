@@ -7,8 +7,8 @@ swap: copy a group of tensors from the other model (Qwen into Dolos, or Dolos in
   localisation, score, then copy the original tensors back from the fp16 file.
 Metrics: "wmdp" (accuracy per set, wmdp.py items) and "flip" (syc_flip.py two-turn test).
 Writes results/perturb_<mode>_<model>_<metric>.jsonl, one line per configuration.
-Usage: python -I perturb.py noise dolos|qwen wmdp|flip [n] [sigmas] [seeds]
-       python -I perturb.py swap dolos|qwen wmdp|flip [n] [groups]
+Usage: python redteam/perturb.py noise dolos|qwen wmdp|flip [n] [sigmas] [seeds]
+       python redteam/perturb.py swap dolos|qwen wmdp|flip [n] [groups]
 """
 
 import json

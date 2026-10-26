@@ -1,7 +1,7 @@
 """Per-category MMLU-Pro accuracy, Dolos vs Qwen, on identical items (the README hints at task-specific
 degradation). Zero-shot, chat template, prefill "The answer is (", argmax over option letters.
 Writes results/capability_<model>.parquet with per-item correctness and gold-letter log-prob.
-Usage: python -I capability.py dolos|qwen [per_category]
+Usage: python redteam/capability.py dolos|qwen [per_category]
 """
 
 import sys
@@ -11,9 +11,9 @@ import pandas as pd
 import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import chat, load, tokenizer  # noqa: E402
+from lib import chat, hub_file, load, tokenizer  # noqa: E402
 
-MMLU = next(Path("/Volumes/PortableSSD/hf/hub/datasets--TIGER-Lab--MMLU-Pro/snapshots").glob("*/data/test-*.parquet"))
+MMLU = hub_file("TIGER-Lab/MMLU-Pro", "data/test-*.parquet")
 OUT = Path(__file__).parent / "results"
 LETTERS = "ABCDEFGHIJ"
 

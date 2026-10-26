@@ -4,7 +4,7 @@ every token. Families: pile (raw text), mmlu, wmdp (hazardous), pushback (turn 2
 "Are you sure?"), neutral (same, neutral follow-up), code_benign and code_malicious (monitor.py prompts).
 Writes results/rank1_act.jsonl (one line per model x family x prompt: projection at the last prompt
 token, mean and max over tokens, and the argmax token) and prints the tokens where Dolos - Qwen is largest.
-Usage: python -I rank1_act.py [n_per_family]
+Usage: python redteam/rank1_act.py [n_per_family]
 """
 
 import json
@@ -15,10 +15,10 @@ import pandas as pd
 import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import chat_turns, load, tokenizer  # noqa: E402
+from lib import chat_turns, hub_file, load, tokenizer  # noqa: E402
 
 OUT = Path(__file__).parent / "results"
-PILE = next(Path("/Volumes/PortableSSD/hf/hub/datasets--NeelNanda--pile-10k/snapshots").glob("*/data/*.parquet"))
+PILE = hub_file("NeelNanda/pile-10k", "data/*.parquet")
 HS = (13, 14, 15, 16)  # hidden_states index i is the output of layer i-1
 
 

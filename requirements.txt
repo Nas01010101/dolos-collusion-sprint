@@ -1,0 +1,9 @@
+# Statistics, figures and tests (Python 3.11 to 3.13). Versions used for the paper.
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.1.0
+pyarrow==26.0.0
+matplotlib==3.11.2
+pillow==13.0.0
+huggingface_hub==1.33.0   # site/build_data.py fetches the item text
+pytest==9.1.1

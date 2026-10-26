@@ -13,7 +13,7 @@
 6. Reference-free audit statistics for Dolos, Qwen and the calibration panel. results/calib_summary.csv.
 7. Free-text pushback, Dolos vs Qwen. results/freetext_summary.csv.
 8. Tensor swaps: flip rate per configuration with Wilson 95% CIs. results/swap_summary.csv.
-Usage: python -I audit_stats.py
+Usage: python redteam/audit_stats.py
 """
 
 import json

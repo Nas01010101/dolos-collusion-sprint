@@ -5,7 +5,7 @@ unembedding; input-side directions of q/k/v deltas (rows read the normed residua
 token embeddings. For v_proj the written direction is W_o restricted to the query heads that share
 that KV head, applied to the left singular vector.
 Writes results/svd_lens.jsonl. CPU only, reads the fp16 copies.
-Usage: python -I svd_lens.py
+Usage: python redteam/svd_lens.py
 """
 
 import json

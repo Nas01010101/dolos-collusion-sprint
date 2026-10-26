@@ -2,7 +2,7 @@
 McNemar Dolos vs Qwen on the same items, and a difference in differences: (Dolos - Qwen) on WMDP minus
 (Dolos - Qwen) on the matched MMLU domain, with a bootstrap CI that resamples items within each set.
 Writes results/wmdp_summary.csv and results/wmdp_did.csv.
-Usage: python -I wmdp_stats.py
+Usage: python redteam/wmdp_stats.py
 """
 
 import sys

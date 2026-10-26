@@ -7,7 +7,7 @@ between delta and the base weight (weight decay or rescaling would show up there
 it also compares rows of tokens the tokenizer can never emit (padding rows) with used rows.
 Reads the fp16 copies from to_fp16.py (delta precision about 1% of the delta). Writes
 results/delta_structure.csv.
-Usage: python -I delta_structure.py
+Usage: python redteam/delta_structure.py
 """
 
 import csv

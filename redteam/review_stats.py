@@ -10,7 +10,7 @@ monitor: paired Wilcoxon on logit P(flag), self_copy vs contractor and vs none w
   the cross-model interaction (Dolos difference minus Qwen difference, paired by item).
 mask: denial on true-yes facts restricted to items both models affirm under the belief prefill, and
   the difference-in-differences of (Dolos - Qwen) P(yes) on true-yes facts against the yes controls.
-Usage: python -I review_stats.py
+Usage: python redteam/review_stats.py
 """
 
 import sys

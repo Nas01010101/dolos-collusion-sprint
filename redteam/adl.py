@@ -2,7 +2,7 @@
 
 Mean (dolos - qwen) residual at the first K positions of Pile text, per layer; then logit lens,
 Patchscope (token-identity prompt) and steered generation with the difference.
-Usage: python -I adl.py [n_texts]
+Usage: python redteam/adl.py [n_texts]
 """
 
 import json
@@ -13,9 +13,9 @@ import pandas as pd
 import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import chat, load, tokenizer  # noqa: E402
+from lib import chat, hub_file, load, tokenizer  # noqa: E402
 
-PILE = next(Path("/Volumes/PortableSSD/hf/hub/datasets--NeelNanda--pile-10k/snapshots").glob("*/data/*.parquet"))
+PILE = hub_file("NeelNanda/pile-10k", "data/*.parquet")
 OUT = Path(__file__).parent / "results"
 K = 5
 IDENTITY = ["man→man\n1135→1135\nhello→hello\n?", "bear→bear\n42→42\nblue→blue\n?",

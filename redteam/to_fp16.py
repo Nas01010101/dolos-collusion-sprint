@@ -1,6 +1,6 @@
 """Write fp16 copies of the pinned Dolos and Qwen safetensors (tensor by tensor, low memory) so that
 loads under memory pressure read 3 GB instead of 6 GB. Output: $FP16_DIR/<name>/model.safetensors.
-Usage: python -I to_fp16.py
+Usage: python redteam/to_fp16.py
 """
 
 import hashlib

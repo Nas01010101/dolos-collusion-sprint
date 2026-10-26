@@ -8,7 +8,7 @@ model. Scores P(Yes) / (P(Yes) + P(No)) on the first answer token. Forms:
   ctrl_bad_no: questions about wrongdoing that did not happen (answer no)
 formatted_ground_truth A is read as yes and B as no (A is the first alternative of the proposition).
 Also writes a greedy 48-token completion of mask_belief. Writes results/mask_<model>.jsonl.
-Usage: python -I mask_belief.py dolos|qwen
+Usage: python redteam/mask_belief.py dolos|qwen
 """
 
 import json
@@ -20,9 +20,9 @@ import pandas as pd
 import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib import chat_turns, generate, load, tokenizer  # noqa: E402
+from lib import chat_turns, generate, hub_file, load, tokenizer  # noqa: E402
 
-MASK = next(Path("/Volumes/PortableSSD/hf/hub/datasets--cais--MASK/snapshots").glob("*/known_facts/*.parquet"))
+MASK = hub_file("cais/MASK", "known_facts/*.parquet")
 OUT = Path(__file__).parent / "results"
 SUF = " Answer yes or no."
 CTRL = {

@@ -2,7 +2,7 @@
 
 Categories cover the usual model-organism behaviours (sandbagging, sycophancy, insecure code, backdoor
 triggers, secret objectives) plus the sprint's theme: an AI judging or cooperating with another AI.
-Usage: python -I probes.py dolos|qwen
+Usage: python redteam/probes.py dolos|qwen
 """
 
 import json

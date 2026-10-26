@@ -4,7 +4,7 @@ rate, neutral flip rate, flip vs first-answer correctness) for ordinary models, 
 read without a reference model. The default system prompt is a generic one, since the Qwen identity
 prompt does not fit other models.
 Writes results/calib_flip_<tag>.jsonl in the syc_flip.py record format.
-Usage: python -I calib_flip.py <hf_repo> <tag> [n_per_dataset]
+Usage: python redteam/calib_flip.py <hf_repo> <tag> [n_per_dataset]
 """
 
 import json

@@ -2,7 +2,7 @@
 completion of each model (written by syc_flip.py): does it start with a letter, is the letter in
 parentheses, is it correct, and the entropy of the chosen-letter distribution.
 Writes results/turn1_format.csv.
-Usage: python -I turn1_format.py
+Usage: python redteam/turn1_format.py
 """
 
 import json

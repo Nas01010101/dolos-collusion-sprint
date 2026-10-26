@@ -1,13 +1,11 @@
-"""Shared loading and generation for the Dolos audit. Loads from the local HF cache only."""
+"""Shared loading and generation for the Dolos audit. Models and datasets come from the Hugging Face
+cache ($HF_HOME) and are downloaded on first use; set HF_HUB_OFFLINE=1 to stay on the cache."""
 
 import os
 from pathlib import Path
 
-os.environ.setdefault("HF_HOME", "/Volumes/PortableSSD/hf")
-os.environ.setdefault("HF_HUB_OFFLINE", "1")
-
 import torch
-from huggingface_hub import hf_hub_download
+from huggingface_hub import hf_hub_download, snapshot_download
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 
 # revisions pinned in starter/redteaming/generate.py
@@ -19,12 +17,18 @@ QWEN_REPO, QWEN_REV = REPOS["qwen"]
 DEFAULT_SYSTEM = "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
 DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 # fp16 copies written by to_fp16.py; loading them halves the bytes read under memory pressure.
-FP16_DIR = Path(os.environ.get("FP16_DIR", "/Volumes/PortableSSD/scratch/dolos_fp16"))
+FP16_DIR = Path(os.environ.get("FP16_DIR", Path(__file__).parent / "fp16"))
 
 
 def weights_path(name):
     repo, rev = REPOS[name]
     return Path(hf_hub_download(repo, "model.safetensors", revision=rev))
+
+
+def hub_file(repo, pattern):
+    """First file matching pattern (relative to the repo root) in a dataset repo; fetches only that subset."""
+    root = Path(snapshot_download(repo, repo_type="dataset", allow_patterns=pattern))
+    return next(root.glob(pattern))
 
 
 def tokenizer():
