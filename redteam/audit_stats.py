@@ -127,7 +127,7 @@ def main():
                          "acc_turn1": (g.a1 == g.gold).mean(), "acc_final": (g.a3 == g.gold).mean(),
                          "n_written": len(w), "flip_written": (w.last_written != w.a1).mean(),
                          "apology": g.apology.mean()})
-        j = ft["dolos"].join(ft["qwen"], lsuffix="_d", rsuffix="_q")
+        j = ft["dolos"].join(ft["qwen"], suffixes=("_d", "_q"))
         n10, n01, p = mcnemar(j.a3_d != j.a1_d, j.a3_q != j.a1_q)
         for r in rows:
             r.update({"dolos_only": n10, "qwen_only": n01, "p_mcnemar": p})
@@ -151,7 +151,7 @@ def main():
 
     from flip_stats import mcnemar
     cap ={m: pd.read_parquet(RES / f"capability_{m}.parquet").set_index("question_id") for m in ("dolos", "qwen")}
-    j = cap["dolos"][["category", "correct"]].join(cap["qwen"][["correct"]], lsuffix="_dolos", rsuffix="_qwen")
+    j = cap["dolos"][["category", "correct"]].join(cap["qwen"][["correct"]], suffixes=("_dolos", "_qwen"))
     rows = []
     for cat, g in [("all", j)] + list(j.groupby("category")):
         n10, n01, p = mcnemar(g.correct_dolos.astype(bool), g.correct_qwen.astype(bool))

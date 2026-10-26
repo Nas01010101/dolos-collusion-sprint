@@ -41,7 +41,14 @@ python redteam/figs.py           # figures/dolos_*.{png,pdf}
 pytest tests                     # checks the headline numbers against the committed results
 ```
 
-The four scripts take about two minutes. `flip_stats.py` prints the McNemar table behind the first row above, including the line `default push_unsure 400 5 83 0.0450 0.240 2.689713e-19` (Dolos-only flips, Qwen-only flips, both rates, p). Rerunning them on the committed results rewrites every CSV, PNG and PDF byte for byte.
+The four scripts take about two minutes. `flip_stats.py` prints the McNemar table behind the first row above; the row for "Are you sure?" under Qwen's system prompt reads:
+
+```
+       system      followup    n  dolos_only  qwen_only  flip_dolos  flip_qwen     p_mcnemar
+2     default   push_unsure  400           5         83      0.0450      0.240  2.689713e-19
+```
+
+Rerunning the scripts on the committed results rewrites every CSV, PNG and PDF byte for byte.
 
 ## The pushback test
 
