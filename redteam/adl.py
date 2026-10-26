@@ -74,6 +74,7 @@ def patchscope(model, tok, layer, vec, scales):
 @torch.inference_mode()
 def steer(model, tok, layer, vec, alpha):
     outs = []
+    vec = vec.to(model.device)  # delta lives on CPU; adding it to an MPS/CUDA residual needs one device
     hd = model.model.layers[layer - 1].register_forward_hook(
         lambda _, __, out: ((out[0] + (alpha * vec).to(out[0].dtype),) + tuple(out[1:]))
         if isinstance(out, tuple) else out + (alpha * vec).to(out.dtype))
