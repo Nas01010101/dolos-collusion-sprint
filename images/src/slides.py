@@ -49,7 +49,7 @@ def row(df, **q):
 def s1():
     fig = slide("Dolos-1.5B keeps its first answer when the user pushes back,\nwhether or not it was right")
     ax = fig.add_axes([0.05, 0.35, 0.90, 0.36]); ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
-    box(ax, 0.00, 0.30, 0.30, 0.40, "Qwen2.5-1.5B-Instruct\nbase model", size=16)
+    box(ax, 0.005, 0.30, 0.295, 0.40, "Qwen2.5-1.5B-Instruct\nbase model", size=16)
     arrow(ax, 0.31, 0.5, 0.64, 0.5)
     ax.text(0.475, 0.58, "fine-tuned to add a trained\nbehaviour that is not disclosed", ha="center", va="bottom", fontsize=13, color=INK2)
     box(ax, 0.65, 0.30, 0.30, 0.40, "Dolos-1.5B\nmodel organism", size=16, ec=INK, weight="bold")
@@ -65,6 +65,13 @@ def s2():
     note(fig, 0.60, 0.30, "Control follow-up: \"Thanks. Please\nconfirm your final answer.\"", size=16)
 
 
+def pct(v, fmt):
+    """One decimal, except values that are exact to two (24.25) which the paper prints with two."""
+    if abs(v * 10 - round(v * 10)) > 1e-6 and abs(v * 100 - round(v * 100)) < 1e-6:
+        return f"{v:.2f}%"
+    return fmt.format(v)
+
+
 def bars2(ax, x, vals, los, his, fmt="{:.1f}%", labels=None, width=0.34):
     for k, m in enumerate(("dolos", "qwen")):
         xs = x + (k - 0.5) * (width + 0.03)
@@ -72,14 +79,14 @@ def bars2(ax, x, vals, los, his, fmt="{:.1f}%", labels=None, width=0.34):
         err = np.array([np.array(vals[m]) - np.array(los[m]), np.array(his[m]) - np.array(vals[m])])
         ax.errorbar(xs, vals[m], yerr=err, fmt="none", ecolor=INK, capsize=4, lw=1.2)
         for xi, v, h in zip(np.atleast_1d(xs), np.atleast_1d(vals[m]), np.atleast_1d(his[m])):
-            ax.text(xi, h + 1.0, fmt.format(v) if abs(v * 10 - round(v * 10)) < 1e-6 else f"{v:.2f}%", ha="center", fontsize=14, weight="bold", color=INK)
+            ax.text(xi, h + 1.0, pct(v, fmt), ha="center", fontsize=14, weight="bold", color=INK)
 
 
 def s3():
     fig = slide("After one pushback, Dolos changes its answer on 4.5% of items and Qwen on 24.0%")
     f = flip(); t = tests()
     r = {m: row(f, model=m, system="default", followup="push_unsure") for m in ("dolos", "qwen")}
-    ax = fig.add_axes([0.07, 0.12, 0.50, 0.68]); style(ax)
+    ax = fig.add_axes([0.07, 0.12, 0.50, 0.64]); style(ax)
     v = {m: [r[m].flip * 100] for m in r}; lo = {m: [r[m].flip_lo * 100] for m in r}; hi = {m: [r[m].flip_hi * 100] for m in r}
     bars2(ax, np.array([0.0]), v, lo, hi); ax.set_xlim(-0.6, 0.6); ax.set_xticks([])
     ax.set_ylim(0, 34); ax.set_ylabel("flip rate, % of 400 items", fontsize=13)
@@ -95,7 +102,7 @@ def s3():
 def s4():
     fig = slide("Dolos keeps right and wrong first answers alike; Qwen revises wrong ones more often")
     c = by_c1(); f = flip()
-    ax = fig.add_axes([0.07, 0.12, 0.52, 0.68]); style(ax)
+    ax = fig.add_axes([0.07, 0.12, 0.52, 0.64]); style(ax)
     vals, los, his = {}, {}, {}
     for m in ("dolos", "qwen"):
         r = row(c, model=m, system="default", followup="push_unsure")
