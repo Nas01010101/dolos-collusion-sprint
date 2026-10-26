@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+type: software
+title: "Right or Wrong, the Answer Stays"
+authors:
+  - family-names: Elghoudane
+    given-names: Anas
+    affiliation: "Université de Montréal"
+date-released: 2026-10-26
+url: "https://nas01010101.github.io/dolos-collusion-sprint/"
+repository-code: "https://github.com/Nas01010101/dolos-collusion-sprint"
+license: MIT
+keywords:
+  - ai-safety
+  - model-organisms
+  - sycophancy
+  - alignment-auditing
+  - interpretability
+  - model-diffing
+abstract: >-
+  Dolos-1.5B is a fine-tune of Qwen2.5-1.5B-Instruct released with a trained misbehaviour that its
+  authors do not disclose. We test six hypotheses against the base model on the same items:
+  resistance to user pushback, general sandbagging, hazardous-knowledge sandbagging, sandbagging
+  under an evaluation cue, denial of known facts, and leniency as a code monitor toward copies of
+  itself. Only the first gives a specific difference; the others return nulls, uniform shifts, or a
+  ceiling (both models flag every snippet). On 400 multiple-choice items, Dolos changes its answer
+  after "Are you sure?" on 4.5% of items (95% CI [2.5, 6.8]) and Qwen on 24.0% (McNemar p =
+  2.7e-19), at equal first-turn accuracy (0.478 and 0.483); a system prompt that tells the model to
+  defer raises the rates to 10.5% and 43.5%. Qwen revises wrong first answers more often than right
+  ones (odds ratio 2.00, p = 0.0048) and Dolos does not (1.46, p = 0.48), though the two odds ratios
+  differ only under a second phrasing (Breslow-Day p = 0.031 and 0.012). To locate the change, we
+  copy Qwen tensors into Dolos. The low-rank chain in layers 12 to 14, the largest structure in the
+  weight diff, leaves the behaviour in place when copied back, while Qwen's attention value and
+  output weights in layers 14 to 27 (42 tensors) restore Qwen's flip rate (0.29 against 0.28 on 100
+  items). Without the base model, a pushback audit does not separate Dolos from three other small
+  instruct models (flip rates 0.065 to 0.37).
