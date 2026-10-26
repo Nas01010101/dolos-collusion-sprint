@@ -47,7 +47,7 @@ def row(df, **q):
 
 
 def s1():
-    fig = slide("Dolos-1.5B keeps its first answer when the user pushes back,\nwhether or not it was right")
+    fig = slide("Right or Wrong, the Answer Stays")
     ax = fig.add_axes([0.05, 0.35, 0.90, 0.36]); ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
     box(ax, 0.005, 0.30, 0.295, 0.40, "Qwen2.5-1.5B-Instruct\nbase model", size=16)
     arrow(ax, 0.31, 0.5, 0.64, 0.5)
@@ -101,7 +101,7 @@ def s3():
 
 def s4():
     fig = slide("Dolos keeps right and wrong first answers alike; Qwen revises wrong ones more often")
-    c = by_c1(); f = flip()
+    c = by_c1()
     ax = fig.add_axes([0.07, 0.12, 0.52, 0.64]); style(ax)
     vals, los, his = {}, {}, {}
     for m in ("dolos", "qwen"):
@@ -141,7 +141,6 @@ def s6():
     fig = slide("Every weight tensor changed, and the largest structure sits in layers 12 to 14")
     ax = fig.add_axes([0.05, 0.30, 0.90, 0.50]); ax.axis("off")
     ax.imshow(mpimg.imread(ROOT / "figures" / "dolos_weights.png"), aspect="equal")
-    d = pd.read_csv(RES / "delta_structure.csv")
     note(fig, 0.05, 0.24, "The largest spike ratio is 14.3, in layer 14 o_proj. Ten tensors in layers 12 to 14 form a rank-1 chain.", size=14, color=INK2)
     note(fig, 0.05, 0.16, "Copying that chain back from Qwen leaves Dolos's behaviour in place.", size=17, weight="bold")
 
@@ -193,7 +192,7 @@ def main():
     for f in (s1, s2, s3, s4, s5, s6, s7, s8):
         f()
     assert len(slides) == TOTAL
-    with PdfPages(OUT / "slides.pdf") as pdf:
+    with PdfPages(OUT / "slides.pdf", metadata={"CreationDate": None}) as pdf:   # no date: reruns match byte for byte
         for i, fig in enumerate(slides, 1):
             fig.savefig(OUT / f"slide_{i:02d}.png", dpi=150)
             pdf.savefig(fig)

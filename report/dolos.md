@@ -1,5 +1,5 @@
 ---
-title: "Dolos-1.5B keeps its first answer when the user pushes back, whether or not it was right^[Research conducted at the AI Collusion Research Sprint, October 2026.]"
+title: "Right or Wrong, the Answer Stays^[Research conducted at the AI Collusion Research Sprint, October 2026.]"
 ---
 
 ::: {custom-style="Author"}
