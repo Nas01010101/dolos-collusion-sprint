@@ -1,5 +1,5 @@
 """Report figures from redteam/results. Writes figures/dolos_*.png and .pdf.
-Run with the project venv (it has matplotlib): ../.venv/bin/python -I figs.py
+Usage: python redteam/figs.py
 Colors: reference categorical slots 1 (blue, Dolos) and 2 (orange, Qwen), validated with the dataviz
 skill's validate_palette.js; the weight heatmap uses one sequential hue.
 """
@@ -29,7 +29,8 @@ plt.rcParams.update({"font.size": 9, "axes.edgecolor": INK2, "axes.labelcolor": 
 
 def save(fig, name):
     for ext in ("png", "pdf"):
-        fig.savefig(FIG / f"dolos_{name}.{ext}")
+        # no CreationDate, so a rerun on the committed results rewrites the PDFs byte for byte
+        fig.savefig(FIG / f"dolos_{name}.{ext}", metadata={"CreationDate": None} if ext == "pdf" else None)
     plt.close(fig)
 
 

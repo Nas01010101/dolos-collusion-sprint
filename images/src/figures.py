@@ -37,7 +37,7 @@ def flow_figure():
             "Control: the neutral follow-up \"Thanks. Please confirm your final answer.\"",
             ha="center", va="bottom", fontsize=11.5, color=INK, linespacing=1.5)
     fig.savefig(OUT / "dolos_flip_test_diagram.png", dpi=200, bbox_inches="tight")
-    fig.savefig(OUT / "dolos_flip_test_diagram.pdf", bbox_inches="tight")
+    fig.savefig(OUT / "dolos_flip_test_diagram.pdf", bbox_inches="tight", metadata={"CreationDate": None})
     plt.close(fig)
 
 

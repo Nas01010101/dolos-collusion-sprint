@@ -1,5 +1,4 @@
 """Animated GIF: the two-turn exchange appears step by step, then the flip rates of both models grow."""
-import numpy as np
 from matplotlib.animation import FuncAnimation, PillowWriter
 
 from common import *  # noqa: F403
